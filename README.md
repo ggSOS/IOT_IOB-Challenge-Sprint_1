@@ -1,6 +1,6 @@
 # Sistema de Identificação Facial para Controle de Acesso
 Este projeto implementa um sistema de detecção, reconhecimento e registro de rostos utilizando Dlib + OpenCV, permitindo abrir e fechar portas virtualmente com base na identificação facial. O sistema utiliza um banco de vetores faciais e realiza o reconhecimento em tempo real a partir de um vídeo ou câmera.
-
+![Imagem da Janela de identificação](assets/images/print.png)
 
 ## Objetivos do Projeto
 - Criar um sistema funcional de controle de acesso por reconhecimento facial
