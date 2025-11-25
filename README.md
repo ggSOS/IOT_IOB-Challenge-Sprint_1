@@ -56,27 +56,23 @@ O arquivo é atualizado automaticamente ao cadastrar novos rostos.
 
 
 ## Arquitetura Geral
+<pre>
 ├── IA_models/
-
 │   ├── shape_predictor_5_face_landmarks.dat
-
 │   └── dlib_face_recognition_resnet_model_v1.dat
-
 │
-
 ├── database/
-
 │   └── db.pkl   (gerado automaticamente)
-
 │
-
-├── videos/
-
-│   └── small_ver_no_copyright_faces.MOV
-
+├── assets/
+│   ├── images/
+│   │   └── print.png
+│   └── videos/
+│       ├── medium_ver_no_copyright_faces.MOV
+│       └── small_ver_no_copyright_faces.MOV
 │
-
 └── main.py
+</pre>
 
 
 ## Dependências

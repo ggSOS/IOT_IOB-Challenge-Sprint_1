@@ -62,7 +62,7 @@ def door_status_print(door_opened):
         print("\nStatus da porta:\n- Fechada")
 
 
-video_path = "videos/small_ver_no_copyright_faces.MOV"
+video_path = "assets/videos/small_ver_no_copyright_faces.MOV"
 cap = cv2.VideoCapture(video_path)
 original_frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 original_frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
